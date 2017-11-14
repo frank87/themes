@@ -16,9 +16,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 // Child theme (do not remove).
 define( 'CHILD_THEME_NAME', 'Piratenpartij Nederland' );
 define( 'CHILD_THEME_URL', 'https://piratenpartij.nl/' );
-/** CSS Cache Buster */
-define( 'CHILD_THEME_VERSION', filemtime( get_stylesheet_directory() . '/style.css' ) );
-//define( 'CHILD_THEME_VERSION', '2.0.2' );
+define( 'CHILD_THEME_VERSION', '2.0.3' );
 
 // Setup Theme.
 include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
