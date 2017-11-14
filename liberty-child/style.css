@@ -1,0 +1,161 @@
+/*
+ Theme Name:   Liberty Child
+ Theme URI:    http://tbdemos.org/liberty/
+ Description:  Liberty Child Theme
+ Author:       Theme Blossom
+ Author URI:   http://themeblossom.net
+ Template:     liberty
+ Version:      1.0.0
+ Tags:         responsive-layout, editor-style, featured-images, flexible-header, full-width-template
+ Text Domain:  liberty
+*/
+
+@import url("../liberty/style.css");
+@font-face { font-family: 'Bungee-Regular'; src: url('/wp-content/themes/liberty-child/fonts/bungee/Bungee-Regular.eot?#iefix') format('embedded-opentype'), url('/wp-content/themes/liberty-child/fonts/bungee/Bungee-Regular.woff') format('woff'), url('/wp-content/themes/liberty-child/fonts/bungee/Bungee-Regular.ttf') format('truetype'), url('/wp-content/themes/liberty-child/fonts/bungee/Bungee-Regular.svg#Bungee-Regular') format('svg'); font-weight: normal; font-style: normal; }
+
+#main-logo-area {
+    background-image: none !important;
+    margin-left: -170px !important;
+}
+
+#main-footer > .container {
+  padding-bottom: 0px !important;
+}
+
+#page #featured-image {
+  background-image: url('/wp-content/uploads/sites/12/2016/10/DefaultHeader.jpg');
+}
+
+#page .facebook_avatar {
+  display: block;
+}
+#page .facebook_data a {
+  display: none;
+}
+
+.tb-upcoming-event h1 a,
+.tb-upcoming-event a:hover,
+.tb-upcoming-event #event-countdown {
+  color: #ffffff !important;
+}
+
+.tb-upcoming-event a {
+  color: #c3b1d0;
+}
+
+::selection {
+        background: #c3b1d0;
+        color: #fff;
+        text-shadow: none;
+}
+
+::-moz-selection {
+        background: #c3b1d0;
+        color: #fff;
+        text-shadow: none;
+}
+
+.single-post a {
+  color: #572b85;
+}
+
+.single-post a:hover {
+  color: #c3b1d0;
+}
+
+#twitter-3 .absolutecenter-stretch {
+  justify-content: left;
+}
+
+
+#hp-streams a,
+.kandidatenslider h1 {
+  color: #ffffff;
+}
+
+#secondary .tribe-events-single-section .col-sm-6 {
+   width: 100%;
+}
+
+.tribe-events-venue-map {
+  display:none !important;
+}
+
+/*
+#page #hp-streams a {
+  color: #572b85;
+}
+
+#page #hp-streams a:hover {
+  color: #572b85;
+}
+*/
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Bungee-Regular' !important;
+}
+
+
+
+
+#secondary h1 a,
+#secondary h2 a,
+#secondary h3 a,
+#secondary h4 a,
+#secondary h5 a,
+#secondary h6 a,
+h1.entry-title,
+h2.entry-title,
+h1 a, h2 a, h3 a {
+  color: #572b85 !important;
+}
+
+.ppnl_h1 h1{
+  color: #572b85 !important;
+}
+
+.white {
+  color: white!important;
+}
+
+#main-footer {
+  background-color: #45226a !important;
+}
+
+/* Submenu */
+
+#page #primary-navigation div div li > a, 
+#page #primary-navigation ul ul a, 
+#page #primary-navigation div > ul ul, 
+#page #primary-navigation2 div div li > a, 
+#page #primary-navigation2 ul ul a, 
+#page #primary-navigation2 div > ul ul {
+  background-color: #572b85;
+}
+
+.campagnemelding {
+    display:none;
+    min-height: 20px;
+    left: 0;
+    min-width: 600px;
+    position: fixed !important;
+    top: 0;
+    width: 100% !important;
+    z-index: 999999;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    
+}
+
+.campagnemelding .tb-icon-box-text {
+  color: #ffffff;
+  padding: 5px;
+}
+
+.campagnemelding a,
+.campagnemelding a:hover,
+.campagnemelding a:visited {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
